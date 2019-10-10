@@ -24,8 +24,17 @@ int get_max (int a, int b)
 }
 
 int main(int argc, char *argv[]) {
-    
-
-	 
+	int x, y;
+	int output;
+	
+	x = 4;
+	y = 3;
+	
+	output = sumtwo( x, y);
+	printf("sumtwo : %i\n", output);
+	printf("square : %i\n", square (x));
+	output = get_max(x, y);
+	printf("get_max : %i\n", get_max(x, y));
+	
 	return 0;
 }
